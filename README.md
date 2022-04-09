@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @fallin-rain
+Welcome to rain's repository.
 
 <!---
 fallin-rain/fallin-rain is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.

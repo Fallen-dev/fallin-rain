@@ -1,0 +1,59 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="../main.css")
+    script(src="../index.js" defer)
+    title Telegram Themer | v0.1.1
+  body
+    h1 Telegram Themer Web Version
+    h3 Initial releaase. v0.1.1
+
+    input#colorpicker(type="color")
+
+    div#palletes(style="display: flex; width: 100%; justify-content: space-between;")
+      - for (let i = 0; i <= 10; i++)
+        div#tonal-box(style="")= "Tonal " + i
+          p Hexcode
+
+    h2 Light Theme
+    div#theme-box_light(style="display: flex; width: 100%; justify-content: space-between;")
+      div#theme-box_light--primary
+        p primary
+      div#theme-box_light--on-primary
+        p On primary
+      div#theme-box_light--primary-container
+        p primary container
+      div#theme-box_light--on-primary-container
+        p On primary container
+
+      div#theme-box_light--secondary
+        p secondary
+      div#theme-box_light--on-secondary
+        p On secondary
+      div#theme-box_light--secondary-container
+        p secondary container
+      div#theme-box_light--on-secondary-container
+        p On secondary container
+
+    h2 Dark Theme
+    div#theme-box_dark(style="display: flex; width: 100%; justify-content: space-between;")
+      div#theme-box_dark--primary
+        p primary
+      div#theme-box_dark--on-primary
+        p On primary
+      div#theme-box_dark--primary-container
+        p primary container
+      div#theme-box_dark--on-primary-container
+        p On primary container
+
+      div#theme-box_dark--secondary
+        p secondary
+      div#theme-box_dark--on-secondary
+        p On secondary
+      div#theme-box_dark--secondary-container
+        p secondary container
+      div#theme-box_dark--on-secondary-container
+        p On secondary container

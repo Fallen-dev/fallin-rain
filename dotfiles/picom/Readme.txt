@@ -1,0 +1,1 @@
+Use "picom --experimental-backend" for blur, rounded corners and animations.
